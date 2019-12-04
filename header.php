@@ -20,13 +20,17 @@ $(document).ready(function(){
 						"height":"195px",
 						"width":"195px"
 						});
-					; 
+					 
         });
    
 
 $( ".view_zagl" ).on( "click", function() {
-  $(this).animate({ opacity: '0'},'fast');
   
+  $(this).closest(".view_detail").css({ "z-index": "1","position":"absolute"});
+  $(this).closest(".view_detail").animate({height:'350px',width:'450px',left:'35%',top:'25%'},"slow",(function(){ 
+      $(this).find(".view_zagl").animate({ opacity: '0'},'fast',(function (){
+          $(this).closest(".view_detail").css({"box-shadow":"0 0 600px rgba(240,240,240,0.8)"});
+      }));}));
 });
 });
 </script>
