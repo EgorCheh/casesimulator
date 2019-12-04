@@ -22,7 +22,12 @@ $(document).ready(function(){
 						});
 					; 
         });
-           
+   
+
+$( ".view_zagl" ).on( "click", function() {
+  $(this).animate({ opacity: '0'},'fast');
+  
+});
 });
 </script>
  </head>
