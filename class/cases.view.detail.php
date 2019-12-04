@@ -58,8 +58,10 @@ public function get_weap_view(){
 	echo "<div class='img_view_div_detail'><img src='images/";
 	echo $this->cases_arrey[$rand[$i]][1];
 	echo ".png' class='img_view_detail'/ ></div>";
-        echo " <div class='view_zagl'> <div class='view_zagl_text'>Открыть</div> </div>";
+	echo "<div class='h6_view_detail'>";
 	echo "12 - 65";
+	echo " $</div>";
+         echo " <div class='view_zagl'> <div class='view_zagl_text'>Открыть</div> </div>";
 	echo"</div><div class='h6_view_detail'></a></td>";
 	
 	if(($i%7)==0&&($i>7)||($i==7))
