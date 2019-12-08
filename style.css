@@ -1,4 +1,7 @@
-html{margin:0}
+html{margin:0;
+     display: flex;
+	flex-direction: column;
+}
 body{
 color: white;	
     margin:0;	
@@ -25,6 +28,13 @@ margin-right:2%;
 position:absolute;
 right:0;
 }
+#div_login_name{
+    position:absolute;
+    right:50%;
+    top:20%;
+      font-family: "Times New Roman";
+      font-size: 18pt
+}
 #button_profile:hover{
    background-color:rgba(255, 255, 255, 0.2); 
 }
@@ -45,6 +55,7 @@ background-repeat: round;
  #content{
 	position: relative;
  height: 87vh;
+ 
  }
  #case_list{
 margin:3px;
@@ -102,11 +113,29 @@ background-color:rgba(0, 0, 0, 0.15);
      
     outline: none; 
  } 
-
+ #grid-container {
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+    grid-row-gap:5px;
+    width: 95%;
+    padding-left: 50px;
+     padding-right:  50px;
+    
+   
+ }
+ #grid-container_open{
+      display: grid;
+     grid-template-columns: 320px 320px 320px 320px 320px ;
+     grid-template-rows :230px;
+     width: 95%;
+    padding-left: 50px;
+     padding-right:  50px;
+     grid-gap:5px;
+ }
  .view_detail{
         position: relative;
         height:230px;
-	width:300px;
+	width:320px;
 	color:white;
         border:  1px solid black;
         box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
@@ -145,7 +174,7 @@ background-color:rgba(0, 0, 0, 0.15);
 	left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+    
  }
  #buy{
     position: absolute;
@@ -379,44 +408,73 @@ background-color:rgba(0, 0, 0, 0.15);
  }
  .view_zagl:hover{
       
-	 background-color:rgba(20, 20, 20);
+	 background-color:rgb(20, 20, 20);
          box-shadow: 0 0 10px rgba(240,240,240,0.8);
 
  }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ #image_case_open{
+     position: absolute;
+     top: 50%;
+       left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  
+    
+ }
+ #prev_open{
+     position: relative;
+     height: 400px;
+ }
+ #name_case_open{
+     
+    position: absolute;
+    top: 4px;
+       left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+ }
+ #button_open_case{
+     
+    position: absolute;
+    bottom: 4px;
+       left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+      background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    width: 150px;
+    font-size: 20px;
+ }
+ #div_log_name
+ {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+ }
+ #div_log_balance{
+      position: absolute;
+    left: 50%;
+     top: 20%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+ }
+ #exit_login{
+     
+      position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    height: 40px;
+     top: 30%;
+      border-radius: 8px;
+      background: transparent;
+      font-size: 30px;
+ }

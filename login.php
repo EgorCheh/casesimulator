@@ -71,7 +71,16 @@ if (isset($date['to_signup'])||!$signup) {
 } elseif ($signup&&!isset($_SESSION['logged_user'])) {
     include_once 'class\class.form.login.php';
 } else {
-    echo '<form action="login.php" method="POST"><button type="submit" id="exit_login" name="exit_login">exitp</button><form action="login.php" method="POST">';
+    echo '<div id="div_log_name">';
+    print_r($_SESSION['logged_user']['login']) ;
+    echo '</div>';
+     echo '<div id="div_log_balance">';
+       $user=R::findOne('users','login=?',array($_SESSION['logged_user']['login']));
+       echo $user->balance;
+
+   
+    echo ' $</div>';
+    echo '<form action="login.php" method="POST"><button type="submit" id="exit_login" name="exit_login">Exit</button><form action="login.php" method="POST">';
 }
 
 
