@@ -5,7 +5,10 @@
         <group>
             <file>file:/C:/openServer/OSPanel/domains/opencasesimulator/login.php</file>
             <file>file:/C:/openServer/OSPanel/domains/opencasesimulator/open_case.php</file>
+            <file>file:/C:/openServer/OSPanel/domains/opencasesimulator/index.php</file>
             <file>file:/C:/openServer/OSPanel/domains/opencasesimulator/header.php</file>
+            <file>file:/C:/openServer/OSPanel/domains/opencasesimulator/case.detail.php</file>
+            <file>file:/C:/openServer/OSPanel/domains/opencasesimulator/core/save.info.php</file>
             <file>file:/C:/openServer/OSPanel/domains/opencasesimulator/style.css</file>
         </group>
     </open-files>

@@ -1,0 +1,71 @@
+%YAML 1.1
+---
+# casesimulator.cases
+-
+  id: 1
+  name: "Weapon Case"
+  price: 14.56
+-
+  id: 2
+  name: "eSports 2013 Case"
+  price: 19.44
+-
+  id: 3
+  name: "Prisma Case"
+  price: 2.57
+-
+  id: 4
+  name: "CS20 Case"
+  price: 3.32
+-
+  id: 5
+  name: "\r\nDanger Zone Case"
+  price: 2.55
+# casesimulator.users
+-
+  id: 25
+  login: "egor"
+  password: "$2y$10$END9TSBVwPw/UNdBbvbty.jKjuEhm51PrE6g1QyHD7yFoB0a.dzKS"
+  balance: 455
+# casesimulator.weapon
+-
+  id: 1
+  name: "Death by Kitty"
+  case_name: "eSports 2013 Case"
+  color: "background: rgb(225,25,35);\r\nbackground: radial-gradient(circle, rgba(225,25,35,1) 58%, rgba(225,25,35,0.4) 99%, rgba(255,255,255,0.014425838694852922) 100%);"
+  type: "P90"
+  price1: 23
+  price2: 45
+-
+  id: 2
+  name: "Red Laminate"
+  case_name: "eSports 2013 Case"
+  color: "background: rgb(167, 37, 111);\r\nbackground: radial-gradient(circle, rgba(167,37,111,1) 58%, rgba(167, 37, 111,0.4) 99%, rgba(255,255,255,0.014425838694852922) 100%);"
+  type: "AK-47"
+  price1: 13
+  price2: 210
+-
+  id: 5
+  name: "BOOM"
+  case_name: "eSports 2013 Case"
+  color: "background: rgb(167, 37, 111);\r\nbackground: radial-gradient(circle, rgba(167,37,111,1) 58%, rgba(167, 37, 111,0.4) 99%, rgba(255,255,255,0.014425838694852922) 100%);"
+  type: "AWP"
+  price1: 24
+  price2: 113
+-
+  id: 7
+  name: "Orange DDPAT"
+  case_name: "eSports 2013 Case"
+  color: "background: rgb(103, 37, 139);\r\nbackground: radial-gradient(circle, rgba(103, 37, 139,1) 58%, rgba(103, 37, 139,0.4) 99%, rgba(255,255,255,0.014425838694852922) 100%);"
+  type: "Galil AR"
+  price1: 3
+  price2: 26
+-
+  id: 8
+  name: "Faded Zebra"
+  case_name: "eSports 2013 Case"
+  color: "background: rgb(47, 56, 144);\r\nbackground: radial-gradient(circle, rgba(47, 56, 144,1) 58%, rgba(47, 56, 144,0.4) 99%, rgba(255,255,255,0.014425838694852922) 100%);"
+  type: "M4A4"
+  price1: 1
+  price2: 9
+...
